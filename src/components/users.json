@@ -1,0 +1,62 @@
+[
+    {
+        "id":101,
+        "name":"Akshay Rayate",
+        "username":"akshay",
+        "password":"Akshay@9766",
+        "email":"akshay@gami.com",
+        "mobno":"+919766387043",
+        "addr":"At post. Khadak Malegaon Tal.Niphad Dist.Nashik , Maharashtra",
+        "pincode":"422301"
+    },
+    {
+        "id":102,
+        "name":"Yash Khelukar",
+        "username":"yash",
+        "password":"Yash@9766",
+        "email":"yash@gami.com",
+        "mobno":"+917767068877",
+        "addr":"At post. Taru khedale Tal.Niphad Dist.Nashik , Maharashtra",
+        "pincode":"422302"
+    },
+    {
+        "id":103,
+        "name":"Sarthak Chavhanake",
+        "username":"sarthak",
+        "password":"Sarthak@9766",
+        "email":"sarthak@gami.com",
+        "mobno":"+917767068877",
+        "addr":"At post. Kirtangali Tal.sinnar Dist.Nashik , Maharashtra",
+        "pincode":"422303"
+    },
+    {
+        "id":104,
+        "name":"Abhijit Rayate",
+        "username":"Abhijit",
+        "password":"abhijit@9766",
+        "email":"abhijit@gami.com",
+        "mobno":"+917767068877",
+        "addr":"At post. Khadak Malegaon Tal.Niphad Dist.Nashik , Maharashtra",
+        "pincode":"422304"
+    },
+    {
+        "id":105,
+        "name":"Abhay Bunage",
+        "username":"abhay",
+        "password":"Abhay@9766",
+        "email":"abhay@gami.com",
+        "mobno":"+917767068877",
+        "addr":"At post. Dhakambe Tal.Nashik Dist.Nashik , Maharashtra",
+        "pincode":"422305"
+    },
+    {
+        "id":106,
+        "name":"Jayesh Sonar",
+        "username":"jayesh",
+        "password":"Jayesh@9766",
+        "email":"jayesh@gami.com",
+        "mobno":"+917767068877",
+        "addr":"At post. Shahada Tal.sinnar Dist.Nashik , Maharashtra",
+        "pincode":"422303"
+    }
+]

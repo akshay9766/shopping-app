@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "category":"grocery",
+        "image":"https://cdn1.desidime.com/topics/photos/1343337/original/Screenshot-2021-09-04-09-23-47-152.png?1630731188"
+    },
+    
+    {
+        "id":2,
+        "category":"mobiles",
+        "image":"https://assets.indiadesire.com/content/Flipkart%20BBD%20Mobile%20Offers.jpg"
+    },
+    {
+        "id":3,
+        "category":"home",
+        "image":"https://dog55574plkkx.cloudfront.net/images/flipkart-big-billion-days-offer.jpg"
+    },
+    {
+        "id":4,
+        "category":"applinces",
+        "images":"https://www.shopickr.com/wp-content/uploads/2017/05/flipkart-home-appliances-sale-offers.jpg"
+    },
+    {
+        "id":5,
+        "category":"toys",
+        "images":"https://i0.wp.com/www.thetrendyblog.net/wp-content/uploads/2017/09/big-billion-day.jpg"            
+    },
+    {
+        "id":6,
+        "category":"bikes",
+        "images":"http://allbikehere.com/wp-content/uploads/2021/12/jpg_20211211_012355_0000.jpg"            
+    },
+    {
+        "id":7,
+        "category":"fashion",
+        "images":"https://hungamadeal.co.in/wp-content/uploads/2019/04/flipkart-3.png"
+    },
+    {
+        "id":8,
+        "category":"electronics",
+        "images":"https://blog.talkcharge.com/wp-content/uploads/2020/09/Flipkart-Upcoming-Sale.jpg"
+    }
+]

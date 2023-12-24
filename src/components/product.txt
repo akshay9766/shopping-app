@@ -1,0 +1,63 @@
+0......grocery
+1......mobiles
+2.....home
+3......applinces
+4......toys
+5.....bikes
+6.....fashion
+7.......electronics
+
+
+
+import axios from "axios"
+import { useState } from "react";
+import { useEffect } from "react"
+import { useParams } from "react-router-dom"
+
+export function ProductDetails(){
+        const params =useParams();
+        const [products,setProducts]=useState([]);
+    useEffect(()=>{
+        axios({
+            method:"get",
+            url:`http://127.0.0.1:5000/details/${params.catname}`
+        }).then(response=>{
+            setProducts(response.data);
+        })
+    },[]);
+
+    return(
+        <div className="container-fluid">
+                {
+                    products.map(product=>
+                        <div>
+                            <div className="col-2">
+                                    <div>
+                                        {
+                                            product.images.map(image=>
+                                                <img src={image}/>)
+                                        }
+                                    </div>
+                            </div>
+                            <div className="col-3">
+                                    <p>.....</p>
+                            </div>
+                            <div className="col-7">
+                            <dl>
+                                <dt></dt>
+                                <dd>{product.title}</dd>
+                                <dd><div>
+                                         <p className="bg-success text-center border-radius" style={{width:"40px",height:"25px"}}><b>{product.rating.rate} &bigstar;</b></p>
+                                         <p>[{product.rating.count}]</p>
+                                         <img src="https://www.adgully.com/img/800/68264_fl.png.jpg"  width="100px" height="20px"/>
+                                    </div></dd>
+                                <dt>Special Price</dt>
+                                <dd><h2>&#8377;{product.price.toLocaleString('en-US')}</h2><del className="ms-1">&#8377; {((product.price*0.2)+parseInt(product.price)).toLocaleString('en-IN')}</del></dd>
+                            </dl>
+                            </div>
+                        </div>)
+                }
+        </div>
+    )
+}
+
